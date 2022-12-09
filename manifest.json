@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Open in Whatsapp",
+    "description": "Open WhatsApp chat automatic with a phone number",
+    "version": "1.0",
+    "icons": {
+        "16": "icons/icon_16.png",
+        "128": "icons/icon_128.png"
+    },
+    "permissions": [
+        "clipboardRead",
+        "clipboardWrite",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "private/popup.html",
+        "default_icon": {
+            "16": "icons/icon_16.png",
+            "512": "icons/icon_512.png"
+        }
+    },
+    "omnibox": { "keyword" : "onwsp" },
+    "background": {
+        "service_worker": "private/background.js"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+W",
+                "mac": "MacCtrl+Shift+W"
+            },
+            "description": "Start \"Open in Whatsap\""
+        }
+    }
+}

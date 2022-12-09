@@ -1,0 +1,74 @@
+input:focus, textarea {
+    outline: none !important;
+}
+
+body {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body.dark-mode{
+    background-color: #333;
+    color: #fff;
+}
+
+#onwsp-container{
+    width: 376px;
+    height: 100vh;
+    min-height: 600px;
+    padding: 8rem 4rem 7rem;
+    text-align: center;
+}
+
+#onwsp-container .logo{
+    width: 150px;
+}
+
+#onwsp-container .title{
+    margin-bottom: 0;
+}
+
+#onwsp-container .details{
+    margin-bottom: 3rem;
+}
+
+form.error input{
+    border-color: rgb(214, 17, 17) !important;
+}
+
+#onwsp-container input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0px;
+}
+
+body.dark-mode input{
+    background-color: #444;
+    color: #fff;
+    border-color: #fff;
+}
+
+#phone{
+    /* border-color: transparent; */
+    border-width: 2px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.onwsp-footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.onwsp-footer i{
+    color: rgb(170, 13, 13);
+}
+
+/* #onwsp-container input{
+    border: none;
+    padding: 0.5rem 0.3rem;
+    border-radius: 0.3rem;
+} */
