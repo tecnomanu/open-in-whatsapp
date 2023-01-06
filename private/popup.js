@@ -40,7 +40,7 @@ function openWSP(event){
         return false;
     }
 
-    var phoneNumberParsed = phoneNumber.replace(/[- ()]/g, '').replace('+54', '');
-    var newURL = 'https://wa.me/+54' + encodeURIComponent(phoneNumberParsed);
+    var phoneNumberParsed = phoneNumber.replace(/[- ()]/g, '');
+    var newURL = 'https://wa.me/' + encodeURIComponent(phoneNumberParsed);
     window.open(newURL, "_blank")
 }
